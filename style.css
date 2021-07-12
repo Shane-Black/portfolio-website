@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Permanent Marker', cursive;
     color: snow;
 }
 
@@ -31,7 +31,8 @@ img {
     width: 45%;
     height: auto;
     float: right;
-    
+    position: relative; 
+    padding-top: 1.5em;   
 }
 
 p {
@@ -43,10 +44,10 @@ p {
     background-image: url(/Code/Phase_0/projects/portfolio-website/Images/speech-bubble.png);
     background-repeat: no-repeat;
     background-size: 925px;
-    background-position: 12% 17%;
-    padding-top: 8em;
+    background-position: 12% 0%;
+    padding-top: 9em;
     padding-left: 10em;
-    padding-bottom: 11.8em;
+    padding-bottom: 11.5em;
     padding-right: 10em;
     text-align: left;
 }
@@ -56,8 +57,9 @@ p {
     color: black;
     font-size: larger;
 }
-.headshot {
-    
+
+#intro h2 {
+    font-family: 'Merriweather', serif;
 }
 .background {
     background-color: azure;
@@ -80,8 +82,54 @@ p {
 .skills {
     color: white;
 }
-.education {
 
+table, th, td {
+    border: 1px solid white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    table-layout: fixed;
+}
+
+th {
+    font-family: 'Permanent Marker', cursive;
+    color: snow;
+    font-size: 1.5em;
+}
+
+td {
+    vertical-align: top;
+}
+#skills h2 {
+    color: #fc1681;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 0em;
+}
+.education {
+    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/study-background.png);
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+#education ul {
+    list-style-image: url(/Code/Phase_0/projects/portfolio-website/Images/grad-hat.png);
+    width: 30%;
+    margin-left: 15%;
+    padding-bottom: 3em;
+    
+}
+#education h2 {
+    color: black;
+    text-align: left;
+    text-indent: 15%;
+    font-size: 3em;
+    padding-top: 0.75em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
 }
 .experience {
 
