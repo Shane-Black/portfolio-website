@@ -9,6 +9,7 @@ html, body {
 body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 h1, h2 {
@@ -36,7 +37,7 @@ img {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -103,6 +104,7 @@ th {
 td {
     vertical-align: top;
 }
+
 #skills h2 {
     color: #fc1681;
     text-align: center;
@@ -126,16 +128,36 @@ td {
     color: black;
     text-align: left;
     text-indent: 15%;
-    font-size: 3em;
     padding-top: 0.75em;
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
-.experience {
+#experience {
+    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/experience-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
+
+#experience h2 {
+    color: #fc1681;
+    text-indent: 60%;
+    font-size: 3em;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#experience p {
+    text-indent: 55%;
+    color: white;
 }
 .portfolio {
+    background-color: azure;
+}
 
+#portfolio h2, p {
+    color: black;
+    text-indent: 15%;
 }
 .name {
 
