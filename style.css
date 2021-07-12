@@ -132,6 +132,14 @@ td {
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
+
+.experience {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
 #experience {
     background-image: url(/Code/Phase_0/projects/portfolio-website/Images/experience-background.png);
     background-attachment: fixed;
@@ -152,16 +160,37 @@ td {
     color: white;
 }
 .portfolio {
-    background-color: azure;
+    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/coming-soon.gif);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 350px;
 }
 
 #portfolio h2, p {
-    color: black;
-    text-indent: 15%;
+    color:#fc1681;
+    text-align: center;
 }
-.name {
 
+#footer {
+    position: relative;
+    color: white;
+    padding-left: 10%;    
+    float: left;
+    width: 33%;
 }
-.medium {
 
+#footer strong {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+
+#footer a {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    width: 33%;
+    padding-bottom: 20px;
 }
