@@ -33,16 +33,21 @@ img {
     height: auto;
     float: right;
     position: relative; 
-    padding-top: 1.5em;   
+    padding-top: 1.5em; 
+    overflow: hidden;  
 }
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 p {
     font-size: 1em;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 .intro {
-    background-image: url(./Images/speech-bubble.png);
+    /* background-image: url(./Images/speech-bubble.png);
     background-repeat: no-repeat;
     background-size: 925px;
     background-position: 12% 0%;
@@ -50,8 +55,9 @@ p {
     padding-left: 10em;
     padding-bottom: 11.5em;
     padding-right: 10em;
-    text-align: left;
+    text-align: left; */
 }
+
 
 #intro strong {
     font-family: 'Permanent Marker', cursive;
