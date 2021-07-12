@@ -42,7 +42,7 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 .intro {
-    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/speech-bubble.png);
+    background-image: url(./Images/speech-bubble.png);
     background-repeat: no-repeat;
     background-size: 925px;
     background-position: 12% 0%;
@@ -112,7 +112,7 @@ td {
     padding-top: 0em;
 }
 .education {
-    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/study-background.png);
+    background-image: url(./Images/study-background.png);
     background-size: auto;
     background-attachment: fixed;
 }
@@ -141,7 +141,7 @@ td {
 }
 
 #experience {
-    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/experience-background.png);
+    background-image: url(./Images/experience-background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -160,7 +160,7 @@ td {
     color: white;
 }
 .portfolio {
-    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/coming-soon.gif);
+    background-image: url(./Images/coming-soon.gif);
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
