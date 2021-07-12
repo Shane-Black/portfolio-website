@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 html, body {
     height: 100%;
@@ -16,13 +17,13 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.75em;
     margin-bottom: 0;
+    padding-top: 1em;
 }
 
 h2 {
     font-size: 2em;
-    margin-top: 0.75em;
 }
 
 img {
@@ -39,17 +40,45 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 .intro {
-
+    background-image: url(/Code/Phase_0/projects/portfolio-website/Images/speech-bubble.png);
+    background-repeat: no-repeat;
+    background-size: 925px;
+    background-position: 12% 17%;
+    padding-top: 8em;
+    padding-left: 10em;
+    padding-bottom: 11.8em;
+    padding-right: 10em;
+    text-align: left;
 }
 
+#intro strong {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: larger;
+}
 .headshot {
-
+    
 }
 .background {
+    background-color: azure;
+    padding-bottom: 1em;
+}
 
+#background h2 {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+#background p {
+    color: black;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 1em;
 }
 .skills {
-
+    color: white;
 }
 .education {
 
@@ -65,5 +94,4 @@ p {
 }
 .medium {
 
-}
 }
